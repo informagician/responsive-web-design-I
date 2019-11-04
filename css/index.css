@@ -259,6 +259,9 @@ li {
     .middle-img {
         max-width: 100%;
     }
+    .services-info-img {
+        display: none;
+    }
 }
 
 /* Breakpoint 500px */
@@ -298,6 +301,12 @@ li {
         flex-direction: column;
     }
     .row-2 div, .row-3 div {
+        width: 100%;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .card {
         width: 100%;
     }
 }
