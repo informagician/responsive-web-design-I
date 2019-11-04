@@ -123,7 +123,7 @@ nav a {
 /* Container Section */
 
 .container {
-	width: 876px;
+	max-width: 876px;
 	margin:0 auto;
 }
 
@@ -232,4 +232,31 @@ li {
 .product button {
 	display: block;
 	margin: 20px auto;
+}
+
+/* Tablet size */
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 94%;
+    }
+    .navbar {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+    nav {
+        margin-top: 30px;
+    }
+    header {
+        justify-content: space-around;
+    }
+    header img {
+        display: none;
+    }
+    .headerText {
+        padding-top:3%;
+    }
+    .middle-img {
+        max-width: 100%;
+    }
 }
